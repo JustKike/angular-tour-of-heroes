@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+/* Application-wide Styles */
+h1 {
+    color: rgb(255, 167, 2);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+    text-align: center;
+    border-radius: 6px;
+  }
+  h2, h3 {
+    color: #444;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+  }
+  body {
+    margin: 2em;
+  }
+  body, input[type="text"], button {
+    color: #333;
+    font-family: Cambria, Georgia;
+  }
+  /* everywhere else */
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .seleccion:not(.highlight-card):hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+  }
